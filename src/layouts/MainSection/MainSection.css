@@ -1,0 +1,151 @@
+.mainSection--container{
+    width: 1440px;
+    margin: 0 auto;
+}
+
+.main--updated--container{
+    width: 1194px;
+    height: 132px;
+    margin: 132px auto 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.updated--title{
+    width: 30%;
+}
+.updated--cards--container{
+    width: 809px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.latest--updated{
+    margin-top: 120px;
+    width: 1179px;
+    margin-left: 123px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.updated--icon{
+    width: 40px;
+    height: 48px;
+}
+.latest--updated h1{
+    width: 418px;
+}
+.latest--updated p{
+    width: 476px;
+    align-self: baseline;
+}
+
+.main--cards--container{
+    width: 1094px;
+    margin: 71.5px auto 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.human--card--container, .human--card--container-personalized{
+    width: 370px;
+    height: 351px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.human--card--container-personalized .main--card--title{
+    color: #FFFFFF;
+}
+.human--card--container-personalized .main--card-p{
+    color: #FFFFFF;
+}
+.human--card--container-personalized .main--card-read{
+    color: #FFFFFF;
+}
+.human--card--container-personalized{
+    background-color: #1B088C;
+}
+.human--card--container-personalized .svg--card{
+    border: 0px solid #1B088C;
+}
+
+.latest--updated h1{
+    font-size: 50px;
+}
+.latest--updated p{
+    font-size: 18px;
+}
+#Icon {
+    fill: #4a3aaa;
+}
+@media only screen and (max-width: 375px) {
+    .mainSection--container{
+        width: 375px;
+    }
+    .main--updated--container{
+        display: flex;
+        flex-direction: column;
+        width: 332px;
+        margin: 39px auto 0 auto;
+        height: 100%;
+    }
+    .updated--title{
+        width: 213px;
+        height: 114px;
+        font-size: 28px;
+        margin-right: 113px;
+    }
+    .updated--cards--container{
+        width: 332px;
+        height: 220px;
+        display: flex;
+        flex-direction: column;
+        margin-top: 17px;
+    }
+
+    .latest--updated{
+        width: 375px;
+        display: flex;
+        flex-direction: column;
+        margin: 77px auto 0 auto;
+        align-items: flex-start;
+
+    }
+    .latest--updated h1{
+        font-size: 28px;
+        margin-left: 16px;
+        height: 144px;
+        width: 80%;
+    }
+    .latest--updated p{
+        width: 340px;
+        margin: 0 auto;
+        font-size: 16px;
+    }
+    .main--cards--container{
+        width: 375px;
+        flex-direction: column;
+        margin-top: 64px;
+    }
+    .human--card--container-personalized{
+        background-color: #FFFFFF;
+    }
+    .human--card--container-personalized .main--card--title{
+        color: #353535;
+    }
+    .human--card--container-personalized .main--card-p{
+        color: #737373;
+    }
+    .human--card--container-personalized .main--card-read{
+        color:#1B088C;
+    }
+    .human--card--container, .human--card--container-personalized {
+        height: 294px;
+    }
+    #Icon {
+        fill: #F57438;
+    }
+
+}

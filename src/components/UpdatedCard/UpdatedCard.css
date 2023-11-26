@@ -1,0 +1,51 @@
+.updated--card--container{
+    width: 415px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-right: 20px;
+}
+.updated--card--title{
+    color:#353535;
+}
+.updated--details--card{
+    width: 259px;
+    margin-left: 24px;
+}
+.card--percent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 132px;
+    height: 132px;
+    border-width: 20px;
+    border-style: solid;
+    opacity: 1;
+    border-radius: 50%;
+}
+.updated--card--p{
+    font-size: 18px;
+    color: #737373;
+    padding-top: 8px
+}
+
+
+@media only screen and (max-width: 375px) {
+    .updated--card--container{
+        width: 375px;
+    }
+    .card--percent{
+        width: 90px;
+        height: 90px;
+        border-width: 10px;
+    }
+    .card--percent h2{
+        font-size: 16px;
+    }
+    .updated--card--title{
+        font-size: 20px;
+    }
+    .updated--card--p{
+        font-size: 16px;
+    }
+}

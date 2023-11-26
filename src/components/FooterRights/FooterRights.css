@@ -1,0 +1,42 @@
+.rights--reserved{
+    width: 1440px;
+    height: 88px;
+    margin: 0 auto;
+    background-color: #0A0048;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+    position: relative;
+}
+
+.lastLogo{
+    position: absolute;
+    bottom: 88px;
+    left: 980px;
+    width: 369px;
+    height: 394px;
+    opacity: 1;
+}
+.lastLogoLeft{
+    position: absolute;
+    bottom: 88px;
+    left: 0px;
+    width: 439px;
+    height: 289px;
+    opacity: 1;
+}
+@media only screen and (max-width: 375px) {
+    .rights--reserved{
+        width: 375px;
+        margin: 500px auto 0 auto;
+    }
+    .lastLogoLeft{
+        display: none;
+    }
+    .lastLogo{
+        left: 150px;
+        width: 180px;
+        height: 192px;
+    }
+}

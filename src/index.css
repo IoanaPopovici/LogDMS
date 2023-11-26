@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.poppins--regular{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+}
+.poppins--medium{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+}
+
+.poppins--semibold{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+}
+
+.poppins--bold{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+}
+
+
+
+.montserrat--bold{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+}

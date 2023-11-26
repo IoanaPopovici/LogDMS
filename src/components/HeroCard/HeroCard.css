@@ -1,0 +1,19 @@
+.hero--card{
+    width: 176px;
+    height: 124px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.hero--card-p {
+    color: #FFFFFF;
+    font-size: 18px;
+    text-align: center;
+}
+
+@media only screen and (max-width: 375px) {
+    .hero--card-p{
+        font-size: 16px;
+    }
+}

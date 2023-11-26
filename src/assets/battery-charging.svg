@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="31.333" height="18.774" viewBox="0 0 31.333 18.774">
+  <g id="battery-charging" transform="translate(-0.333 -6.613)">
+    <path id="Vector" d="M18.667,0h2.667A2.667,2.667,0,0,1,24,2.667V13.333A2.667,2.667,0,0,1,21.333,16H17.08" transform="translate(1.333 8)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <path id="Vector-2" data-name="Vector" d="M5.333,16H2.667A2.667,2.667,0,0,1,0,13.333V2.667A2.667,2.667,0,0,1,2.667,0" transform="translate(1.333 8)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <path id="Vector-3" data-name="Vector" d="M0,2.667V0" transform="translate(30.667 14.667)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <path id="Vector-4" data-name="Vector" d="M5.333,0,0,8H8L2.667,16" transform="translate(9.333 8)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+  </g>
+</svg>

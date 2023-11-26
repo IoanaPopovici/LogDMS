@@ -1,0 +1,167 @@
+.hero--container {
+    width: 1440px;
+    height: 934px;
+    background-color: #1B088C;
+    margin: 0 auto;
+    position: relative;
+}
+
+.img--hero{
+    position: absolute;
+    width: 724px;
+    height: 782px;
+    top: 325px;
+    left: 638px;
+    z-index: 4;
+}
+.c1{
+    position: absolute;
+    top: 222px;
+    left: 751px;
+    width: 743px;
+    height: 743px;
+    border: 2px solid #FFFFFF33;
+    opacity: 1;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.c2{
+    position: absolute;
+    top: 272px;
+    left: 801px;
+    width: 644px;
+    height: 644px;
+    border: 2px solid #FFFFFF33;
+    opacity: 1;
+    border-radius: 50%;
+}
+.c3{
+    position: absolute;
+    top: 321px;
+    left: 850px;
+    width: 545px;
+    height: 545px;
+    border: 2px solid #FFFFFF33;
+    opacity: 1;
+    border-radius: 50%;
+}
+.c4{
+    position: absolute;
+    top: 371px;
+    left: 900px;
+    width: 446px;
+    height: 446px;
+    border: 2px solid #FFFFFF33;
+    opacity: 1;
+    border-radius: 50%;
+}
+.c5{
+    position: absolute;
+    top: 420px;
+    left: 949px;
+    width: 347px;
+    height: 347px;
+    border: 2px solid #FFFFFF33;
+    opacity: 1;
+    border-radius: 50%;
+}
+.svgHero{
+    width:724px;
+    height:782px;
+}
+
+@media only screen and (max-width: 375px) {
+
+    .hero--container {
+        width: 375px;
+        height: 1073px;
+    }
+
+    .svgHero {
+        width: 375px;
+        height: 407px;
+    }
+
+    .img--hero {
+        position: absolute;
+        width: 375px;
+        left: 0;
+        top: 704px;
+        z-index: 4;
+    }
+
+    .c1 {
+        top: 626px;
+        left: -28.6273193359375px;
+        width: 433px;
+        height: 433px;
+    }
+
+    .c2 {
+        top: 655px;
+        left: 0.21453857421875px;
+        width: 375px;
+        height: 375px;
+    }
+
+    .c3{
+        top: 684px;
+        left: 29px;
+        width: 317px;
+        height: 318px;
+    }
+
+    .c4 {
+        top: 713px;
+        left: 58px;
+        width: 260px;
+        height: 260px;
+    }
+    .c5{
+        top: 741px;
+        left: 87px;
+        width: 202px;
+        height: 202px;
+    }
+}
+.dropdown--menu{
+    width: 375px;
+    height: 812px;
+    background-color: #1B088C;
+    color: #FFFFFF;
+    font-size: 20px;
+    margin: 15px auto 0 auto;
+    position: absolute;
+    z-index: 999;
+}
+.dropdown--menu p{
+    width: 93px;
+    height: 52px;
+}
+.dropdown--menu .custom-p-dropdown{
+    width: 336px;
+    display: flex;
+    justify-content: space-between;
+}
+.dropdown--shop--btn{
+    background-color: #F57438;
+    font-size: 16px;
+    width: 343px;
+    height: 56px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+    border: #F57438;
+    margin: 280px auto 0 auto;
+}
+.dropdown--menu .dropdown--p{
+    margin: 24px auto 0 auto;
+    width: 223px;
+    height: 21px;
+    color: #FFFFFFB2;
+    font-size: 14px;
+}
+@media only screen and (max-width: 375px) {
+
+}

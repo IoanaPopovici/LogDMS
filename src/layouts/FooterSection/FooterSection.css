@@ -1,0 +1,116 @@
+.footerSection--container{
+    width: 1440px;
+    height: 660px;
+    margin: 0 auto 0 auto;
+}
+
+.footerSection--container {
+    display: flex;
+    justify-content: center;
+}
+
+.text--footer {
+    width: 941px;
+    height: 496px;
+    display: grid;
+    margin-top: 88px;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-gap: 0 10px;
+}
+
+.menu--footer,
+.product--footer,
+.solutions--footer,
+.faq--footer,
+.support--footer,
+.developers--footer,
+.resources--footer {
+    color: #777777;
+}
+
+.menu--footer p,
+.product--footer p,
+.solutions--footer p,
+.faq--footer p,
+.support--footer p,
+.developers--footer p,
+.resources--footer p {
+    margin-bottom: 16px;
+}
+
+.helper-div{
+    grid-column: span 2;
+}
+
+.menu--footer,
+.product--footer,
+.solutions--footer,
+.faq--footer,
+.support--footer,
+.developers--footer,
+.resources--footer{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+/*select first p from the div*/
+.menu--footer p:first-child,
+.product--footer p:first-child,
+.solutions--footer p:first-child,
+.faq--footer p:first-child,
+.support--footer p:first-child,
+.developers--footer p:first-child,
+.resources--footer p:first-child {
+    margin-bottom: 25px;
+    color: #232323;
+    font-size: 20px;
+}
+.developers--footer{
+    margin-top: 54px;
+}
+.resources--footer{
+    margin-top: 54px;
+}
+
+@media only screen and (max-width: 375px) {
+    .text--footer{
+        width: 333px;
+        margin: 72px auto 0 auto;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(5, 1fr);
+
+    }
+    .footerSection--container{
+        width: 375px;
+        justify-content: flex-start;
+    }
+    .helper-div{
+        display: none
+    }
+    .menu--footer {
+        order: 1;
+    }
+    .product--footer {
+        order: 2;
+    }
+    .solutions--footer {
+        order: 3;
+    }
+    .faq--footer {
+        order: 4;
+    }
+    .support--footer {
+        order: 6;
+        margin-top: 54px;
+    }
+    .developers--footer {
+        order: 5;
+    }
+    .resources--footer {
+        order: 7;
+    }
+}
+

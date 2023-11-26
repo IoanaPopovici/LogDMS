@@ -1,0 +1,107 @@
+.footerMain--container{
+    position: absolute;
+    top: 3910px;
+    width: 1440px;
+    height: 731px;
+    background-color: #0A0048;
+}
+
+.preorder--container{
+    position: relative;
+    width: 1191px;
+    z-index: 3;
+    margin: 436px auto 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+    .preorder--title{
+    width: 379px;
+    height: 125px;
+    color: #FFFFFF;
+    font-size: 50px;
+}
+
+.preorder-p{
+    color: #FFFFFFB2;
+    font-size: 18px;
+}
+.preoreder--left{
+    display: flex;
+    flex-direction: column;
+}
+.preoreder--right{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+.preoreder--left .preorder-p{
+    margin-top:31.5px;
+    width: 513px;
+}
+
+.preorder--btn{
+    width: 210px;
+    height: 56px;
+    background-color: #F57438;
+    color: #FFFFFF;
+    font-size: 18px;
+    border-color: #F57438;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.preoreder--right .preorder-p{
+    width: 298px;
+    text-align: right;
+    margin-top: 22px;
+}
+
+@media only screen and (max-width: 375px) {
+    .footerMain--container{
+        top: 5250px;
+        width: 375px;
+        height: 646px;
+    }
+    .preorder--container{
+        margin-top: 250px;
+        width: 375px;
+        flex-direction: column;
+    }
+    .preorder--title{
+        width: 213px;
+        height: 84px;
+        font-size: 28px;
+    }
+    .preoreder--left{
+        width: 375px;
+        margin-left: 16px;
+    }
+    .preoreder--left .preorder-p{
+        width: 332px;
+        height: 73px;
+        font-size: 14px;
+        margin-top: 16px;
+    }
+    .preoreder--right{
+        align-items: center;
+        margin-top: 32px;
+    }
+    .preorder--btn{
+        width: 343px;
+        height: 56px;
+        justify-content: center;
+    }
+    #Buy{
+        margin-right: 15px;
+    }
+    .preoreder--right .preorder-p{
+        text-align: left;
+        font-size: 14px;
+        width: 332px;
+        height: 73px;
+    }
+}
+

@@ -1,0 +1,77 @@
+.navbar--container{
+    width: 1194px;
+    height: 48px;
+    margin: 0 auto;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px
+}
+.navbar--links{
+    width: 646px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar--dropdown{
+    width: 336px;
+    height: 322px;
+    display: flex;
+    flex-direction: column;
+    margin: 43px auto 0 auto;
+}
+.shop--button {
+    background-color: #F57438;
+    font-size: 16px;
+    width: 115px;
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+    border: #F57438;
+}
+
+.shop--bag {
+    width: 20px;
+    height: 20px;
+    color: white;
+    margin-right: 10px;
+}
+.logo--tech{
+    width: 20px;
+    height: 26px;
+}
+.tech--container{
+    width: 88px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.hamburger--button{
+    display: none;
+}
+.navbar--links p{
+    cursor: pointer;
+}
+.shop--button{
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 375px) {
+    .navbar--container{
+        width: 340px;
+        height: 23px;
+    }
+    .navbar--links,
+    .shop--button{
+        display: none;
+    }
+    .hamburger--button{
+        display: block;
+        width: 18px;
+        height: 12px;
+        cursor: pointer;
+    }
+}

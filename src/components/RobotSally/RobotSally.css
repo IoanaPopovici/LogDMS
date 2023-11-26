@@ -1,0 +1,61 @@
+.robot--section{
+    /*height: 1196px;*/
+}
+.robot--container{
+    width: 1440px;
+    height: 491px;
+    position: relative;
+    margin: 136px auto 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.robot-sally{
+    position: absolute;
+    z-index: 3;
+    width: 724px;
+    height: 782px;
+    top: 0;
+    left: 60px;
+}
+
+.about--robot{
+    width: 500px;
+    height: 281px;
+    margin-right: 184px;
+    margin-top: 69px;
+}
+.about--robot p{
+    margin-top: 32px;
+}
+.about--robot h1{
+    font-size: 50px
+}
+.about--read{
+    font-size: 18px;
+}
+@media only screen and (max-width: 375px) {
+    .robot--container{
+        width: 375px;
+        flex-direction: column-reverse;
+        margin: 0;
+    }
+    .about--robot{
+        width: 344px;
+        height: 213px;
+        margin: 148px auto 75px auto;
+    }
+    .about--robot{
+        font-size: 14px;
+    }
+    .about--robot h1{
+        width: 294px;
+        font-size: 28px
+    }
+    .robot-sally{
+        width: 375px;
+        height: 483px;
+        top: 490px;
+        left: 0;
+    }
+}

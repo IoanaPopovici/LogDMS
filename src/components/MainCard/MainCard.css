@@ -1,0 +1,43 @@
+.main--card{
+    width: 306px;
+    display: flex;
+    flex-direction: column;
+}
+
+.svg--card{
+    width: 64px;
+    height: 64px;
+    border: 1px solid #F57438;
+    border-radius: 10px;
+    background-color: #F57438;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main--card--title{
+    color: #353535;
+    margin-top: 24px;
+}
+.main--card-p{
+    color: #737373;
+    margin-top: 16px
+}
+.main--card-read{
+    color:#1B088C;
+    margin-top:22.5px;
+}
+
+@media only screen and (max-width: 375px) {
+    .svg--card{
+        height: 56px;
+        width: 56px;
+    }
+    .main--card--title{
+        font-size: 20px;
+    }
+    .main--card-p,
+    .main--card-read{
+        font-size: 14px;
+    }
+}
+

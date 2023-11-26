@@ -1,0 +1,63 @@
+.robot--optimization {
+    position: relative;
+    z-index: 2;
+    width: 1440px;
+    height: 705px;
+    margin: 0 auto;
+    background-color: #0A0048;
+}
+.robot--optim--title{
+    position: relative;
+    top: 105px;
+    margin-left: 756px;
+    width: 557px;
+    height: 144px;
+    font-size: 50px;
+    color: #FFFFFF;
+    text-align: right;
+}
+.robot--cards--container{
+    position: relative;
+    width: 1141px;
+    height: 256px;
+    margin: 209px auto 0 auto;
+    display: flex;
+    justify-content: space-between;
+    z-index: 2;
+}
+.robotLogo{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+
+@media only screen and (max-width: 375px) {
+    .robot--optimization{
+        width: 375px;
+        height: 1012px;
+        top: 300px;
+    }
+    .robot--optim--title{
+        width: 327px;
+        margin: 0 auto;
+        top: 207px;
+        text-align: left;
+    }
+    .robot--cards--container{
+        flex-direction: column;
+        margin: 0 auto;
+        width: 327px;
+        top: 269px;
+    }
+    .robot--optim--title{
+        width: 327px;
+        height: 84px;
+        margin: 0 auto;
+        font-size: 28px;
+    }
+    .robotLogo{
+        width: 353px;
+        height: 232px;
+    }
+}

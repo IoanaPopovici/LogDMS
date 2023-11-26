@@ -1,0 +1,58 @@
+.frame--container{
+    height: 1073px;
+}
+
+.frame--container--cards{
+    position: relative;
+    z-index: 2;
+    width: 1194px;
+    height: 666px;
+    margin: 128px auto 0 auto;
+}
+
+.frame--title{
+    width: 543px;
+    height: 144px;
+    margin: 0 auto;
+}
+
+.frame--p{
+    font-size: 50px;
+}
+
+.reviews--container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.arrows--container{
+    width: 138px;
+    height: 58px;
+    display: flex;
+    justify-content: space-between;
+    margin: 66px auto 0 auto;
+}
+.arrows--container img{
+    cursor: pointer;
+}
+@media only screen and (max-width: 375px) {
+    .frame--container--cards{
+        width: 375px;
+        margin: 400px auto 0 auto;
+
+    }
+    .frame--title{
+        width: 319px;
+    }
+    .frame--p{
+        font-size: 28px;
+    }
+    .reviews--container{
+        width: 359px;
+        margin: 0 0 0 auto;
+        overflow: scroll;
+    }
+    .arrows--container{
+        display: none;
+    }
+}
