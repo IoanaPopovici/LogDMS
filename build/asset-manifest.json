@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/static/css/main.baa36c04.css",
+    "main.js": "/static/js/main.8f890d1c.js",
+    "static/media/Hamburger_icon_white.svg.png": "/static/media/Hamburger_icon_white.svg.217d35c4e064a7b76ce9.png",
+    "static/media/robotcard.png": "/static/media/robotcard.4ce61801271b1f81f841.png",
+    "index.html": "/index.html",
+    "main.baa36c04.css.map": "/static/css/main.baa36c04.css.map",
+    "main.8f890d1c.js.map": "/static/js/main.8f890d1c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.baa36c04.css",
+    "static/js/main.8f890d1c.js"
+  ]
+}
