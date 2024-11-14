@@ -29,8 +29,8 @@ const hdd = <svg className='svgHdd' xmlns="http://www.w3.org/2000/svg" viewBox="
 const MainHero = () => {
     return (
         <div className='mainHero--container'>
-            <p className='hero--title montserrat--bold'>Proiect Climinte Ioana-Gabriela </p>
-            <p className='hero--title montserrat--bold'>Practica anul II, Informatica </p>
+            <p className='hero--title montserrat--bold'>LogDMS</p>
+            <p className='hero--title montserrat--bold'>Robot technology</p>
             <p className='hero--p poppins--regular'>Robot technology is faster with the latest systems that make it possible your partner and ready to serve your needs. Enter email to get product launch information</p>
             <div className='hero--form'>
                 <input className='hero--input' type="text" placeholder='Enter your email address' />
